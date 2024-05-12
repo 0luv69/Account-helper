@@ -1,0 +1,79 @@
+body {
+    background-color: lightgray;
+}
+
+#BOX {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #1B1A55;
+    border: 6px solid black;
+    margin: 70px 169px;
+    padding: 0px 20px;
+    height: 700px;
+    width: 1128px;
+    border-radius: 10px;
+}
+
+.sub_box {
+    padding: 0px 10px;
+    border: 6px solid rgb(128, 38, 0);
+    box-shadow: 0px 0px 18px lightcyan;
+    width: 300px;
+    height: 280px;
+    background-color: rgb(227, 252, 209);
+}
+
+.noline {
+    margin-top: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    height: 250px;
+}
+
+.tilte_text {
+    margin-top: 10px;
+    height: 110px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sub_box span {
+    margin-top: 8px;
+    color: black;
+    padding: 0px 6px;
+    font-size: 25px;
+}
+
+.sub_box:hover span {
+    color: black;
+}
+
+.sub_box:hover .imagelogo {
+    box-shadow: 0 5px 10px blue;
+    border-radius: 15px;
+}
+
+.sub_box:hover {
+    border: 6px solid blue;
+    box-shadow: 0 0 10px red;
+}
+
+.all_image_Div {
+    padding-top: 10px;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box5img {
+    width: 255px;
+}
+
+#box6img {
+    width: 255px;
+}
+
+.imagelogo {
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}

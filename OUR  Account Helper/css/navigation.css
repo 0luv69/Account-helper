@@ -1,0 +1,132 @@
+/* Resetting default margin and padding for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the navbar container */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #488bf4;
+    height: 85px;
+    padding: 0 20px;
+}
+
+/* Styling for the logo on the left side */
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#left img {
+    height: 77px;
+}
+
+/* #incenterimg {
+    background-color: aqua;
+    position: relative;
+} */
+
+#center {
+    /* background-color: white; */
+    height: 230%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#center img {
+    margin: 2px 70px;
+    height: 130px;
+}
+
+
+/* Styling for the navigation menu in the middle */
+
+#mid ul {
+    display: flex;
+}
+
+#mid ul li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+#mid ul li a {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    transition: transform 0.8s;
+}
+
+/* Dropdown styles remain the same */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+}
+
+#dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Link1 {
+    margin-top: 2px;
+    padding: 3px 20px;
+    display: block;
+}
+
+#Link2 {
+    margin-top: 3px;
+    padding: 3px 20px;
+    display: block;
+}
+
+#imageo {
+    height: 14px;
+    width: 33px;
+}
+
+/* Styling for the search box and button on the right side */
+#right {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right input {
+    border: black solid 1px;
+    background: white;
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#right input:hover {
+    width: 260px;
+}
+
+#right a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    padding: 0 16px;
+    line-height: 40px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+#right a:hover {
+    box-shadow: 0 0 10px white, 0 0 20px black;
+}

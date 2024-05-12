@@ -1,0 +1,16 @@
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFDE;
+  }
+#dropdown:hover .dropdown-content {
+  display: block;
+}
+#Link1{
+    padding:3px 20px;
+    display:block;
+}
+#Link2{
+    padding:3px 20px;
+    display:block;  
+}
