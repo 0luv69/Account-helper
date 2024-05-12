@@ -1,0 +1,207 @@
+#BOX{
+    background-color: whitesmoke;
+    border: 6px solid black;
+    margin: 20px 10px;
+    padding: 0px 20px;
+    height: 625px;
+    display: flex;
+}
+/* Form here it for hover change in big box  */
+/* #BOX:hover{
+    background-color:/*#ECB390 #DFBB9D; */ 
+    /* box-shadow: 0px 0px 15px blue, 0px 0px 20px blueviolet, 0px 0px 35px red; */
+
+
+
+/* From here it starts to degine the small box size  */
+#box1{ 
+    border: 6px solid black;
+    margin: 33px 38px;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(227, 254, 216);
+}
+
+#box2{
+    border: 6px solid black;
+    margin: 33px 20px;
+    width: 300px;
+    background-color: rgb(227, 254, 216);
+    height: 250px;
+}
+
+#box3{
+    border: 6px solid black;
+    /* padding: 100px 13px; */
+    margin: 33px 20px;
+    width: 300px;
+    background-color: rgb(227, 254, 216);
+    height: 250px;
+}
+
+#box4{
+    border: 6px solid black;
+    /* padding: 100px 13px; */
+    margin: 33px 20px;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(227, 254, 216);
+
+}
+#box5{
+    position:absolute;
+    border: 6px solid black;
+    /* padding: 100px 13px; */
+    margin: 330px -982px;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(227, 254, 216);
+
+}
+#box6{
+    position:absolute;
+    border: 6px solid black;
+    /* padding: 100px 13px; */
+    margin: 330px -646px;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(227, 254, 216);
+
+}
+#box7{
+    position:absolute;
+    /* border: 6px solid black; */
+    margin: 330px 30px;
+    width: 300px;
+    height: 250px;
+}
+#box8{
+    position:absolute;
+    /* border: 6px solid black; */
+    margin: 330px 1098px;
+    width: 300px;
+    height: 250px;
+}
+
+
+ /* so .noline is class that to remove the underline line of links */
+.noline{
+    text-decoration: none;
+}
+
+
+/* form here it stars to degine size of image and text inside small boxes */
+/* And also be reminded that in "img" = it design image and in "span" = it degine text inside boxes */
+#box1img{    
+    padding: 2px 55px;
+    height: 150px;    
+}
+#box1 span{
+    font-size: 25px;
+    color: black;
+    padding: 0px 8px;
+}
+#box2img{
+    padding: 2px 35px;
+    height: 150px;
+}
+#box2 span{
+    padding: 0px 6px;
+    font-size: 25px;
+    color: black;
+}
+
+#box3img{
+    padding: 2px 70px;
+    height: 150px;
+}
+#box3 span{
+    padding: 0px 6px;
+    font-size: 25px;
+    color: black;
+}
+
+#box4img{
+    padding: 2px 26px;
+    height: 150px;
+}
+#box4 span{
+    padding: 0px 6px;
+    font-size: 25px;
+    color: black;
+}
+#box5img{
+    padding: 2px 25px;
+    height: 150px;
+    width: 250px;
+}
+#box5 span{
+    padding: 0px 6px;
+    font-size: 25px;
+    color: black;
+}
+#box6img{
+    padding: 2px 24px;
+    height: 150px;
+    width: 255px;
+
+}
+#box6 span{
+    padding: 0px 6px;
+    font-size: 25px;
+    color: black;
+}
+
+
+
+/* Form here it for hover change in small boxes images  */
+
+#box1img:hover{ 
+    box-shadow: 0 0 30px black;
+}
+#box2img:hover{
+    box-shadow: 0 0 30px black;
+}
+#box3img:hover{
+    box-shadow: 0 0 30px black;
+}
+#box4img:hover{
+    box-shadow: 0 0 30px black;
+}
+#box5img:hover{
+    box-shadow: 0 0 30px black;
+}
+#box6img:hover{
+    box-shadow: 0 0 30px black;
+}
+/* Form here it for hover change in small boxes  */
+#box1:hover{
+    border: 6px solid blue;
+    background-color: rgb(227, 252, 209);
+    box-shadow: 0 0 10px red;
+}
+#box2:hover{
+    border: 6px solid blue;
+    background-color: rgb(227, 252, 209);
+    box-shadow: 0 0 10px red;
+}
+#box3:hover{
+    border: 6px solid blue;
+    background-color: rgb(227, 252, 209);
+    box-shadow: 0 0 10px red;
+}
+#box4:hover{
+    border: 6px solid blue;
+    background-color: rgb(227, 252, 209);
+    box-shadow: 0 0 10px red;
+}
+#box5:hover{
+    border: 6px solid blue;
+    background-color: rgb(227, 252, 209);
+    box-shadow: 0 0 10px red;
+}
+#box6:hover{
+    border: 6px solid blue;
+    background-color: rgb(227, 252, 209);
+    box-shadow: 0 0 10px red;
+}

@@ -1,0 +1,34 @@
+#navbar{
+    display: flex;
+    background-color: azure;
+    height: 150px;
+}
+
+
+/* left  */
+#left img{
+    height:40px;
+    padding: 30px 15px;
+}
+
+
+/* mid  */
+#mid {
+    padding: 20px 4px;
+    margin: 0px -60px;
+}
+#mid ul li{
+    padding: 7px 8px;
+}
+
+/* right  */
+#right{
+    margin: 90px -250px;
+    height: 30px;
+    width: 210px;
+}
+#right a{
+line-height: 30px;
+padding: 0px 12px;
+margin: 0px -60px;
+}

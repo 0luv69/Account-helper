@@ -1,0 +1,208 @@
+#BOX{
+    border: 4px red solid; 
+    margin: 20px 20px;
+    padding: 20px 20px;  
+    height: 2000px; 
+}
+#box1{
+    border: 4px blue solid; 
+    padding: 50px 30px;  
+}
+#p1{
+    font-size: 36px;
+}
+#searchcontent{
+    margin: 0px 190px;
+}
+#searchcontent span{
+    font-size: 38px;
+    margin: 38px 60px;
+    display: block;
+}
+#search-text{
+    margin-left: 268px;
+    margin-top: -96px;
+    font-size: 30px;
+    display: flex;
+    padding: 5px 30px;
+    background-color: #eeff51;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+#search{
+    background-color: black;
+    font-size: 32px;
+    margin: 0px 675px;
+    text-decoration: none;
+    margin-top: -44px;
+    display: block;
+    padding: 1px 20px;
+    width: 90px;
+    color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 0px 0px 25px black;
+}
+#search:hover{
+    font-size: 33.5px;
+    box-shadow: 0px 0px 30px black;
+}
+#upp{
+    margin-top: 50px;
+}
+#m_title{
+    display: block;
+    font-size: 35px;
+    background-color: antiquewhite;
+    border: black solid 4px;
+    margin-top: 10px;
+    padding: 5px 20px;
+    width: 400px;
+}
+#arrowleft{
+    margin-left: 30px;
+    width: 425px;
+    height: 108px;
+}
+#lines1{
+    margin: 26px -400px;
+    position: absolute;
+    height: 2px;
+    width:115px;
+}
+#lines2{
+    margin: 66px -400px;
+    position: absolute;
+    height: 2px;
+    width:115px;
+}
+#profitloss{
+    margin: 9px -286px;
+    position: absolute;
+    background-color: antiquewhite;
+    border: black solid 3px;
+    border-radius: 20px;
+    padding: 5px 22px;
+}
+#profitloss:hover{
+    box-shadow: 0px 0px 12px blue;
+}
+#lines2:hover{
+    box-shadow: 0px 0px 12px blue;
+}
+#balance{
+    margin: 49px -286px;
+    position: absolute;
+    background-color: antiquewhite;
+    border: black solid 3px;
+    border-radius: 20px;
+    padding: 5px 22px;
+}
+#balance:hover{
+    
+    box-shadow: 0 0 12px blue;
+}
+#trading{
+    font-size: 40px;
+}
+#title{
+    border: 3px solid;
+    background-color: beige;
+    width: 289px;
+    border-radius: 400px;
+    padding: 0px 144px;
+    margin: -40px 437px;
+}
+#divides1{
+    height: 96px;
+    margin: 40px 590px;
+}
+#debit_box{
+    border: 4px black solid;
+    padding: 20px 30px;   
+    margin: -66px -15px;
+    width: 45%;  
+    height: 400px;
+}
+#credit_box{
+    border: 4px black solid;
+    padding: 20px 30px;
+    margin: -448px 51%;
+    width: 45%; 
+    height: 400px;   
+}
+.text-border1{
+    font-weight: 700;
+    font-size: 40px;
+    border: 2px red solid;
+    background-color: aqua;
+    display: block;
+    margin: -10px 0px;
+    padding: 4px 260px;
+}
+
+
+/* From here it begins the Css for profit and loss  */
+
+#pltitle{
+    font-size: 40px;
+    position: absolute;
+    margin: 600px 437px;
+    border: 3px solid;
+    background-color: beige;
+    width: 303px;
+    border-radius: 400px;
+    padding: 0px 144px;   
+}
+#pdivides1{
+    height: 96px;
+    margin: 651px 590px;
+    position: absolute;
+}
+
+#pdebit_box{
+    position: absolute;
+    margin: 900px 0px;
+}
+
+.ptext-border1{
+    font-weight: 700;
+    font-size: 40px;
+    border: 2px red solid;
+    padding: 4px 260px;
+    margin: -10px 0px;
+    background-color: aqua;
+}
+
+#pdebit_box{
+    position:absolute;
+    border: 4px black solid;
+    padding: 20px 30px;   
+    margin: 731px -12px;
+    width: 42%;
+    height: 400px;
+}
+#pcredit_box{
+    position:absolute;
+    border: 4px black solid;
+    padding: 20px 30px;
+    margin: 731px 741px;
+    width: 42%;
+    height: 400px;   
+}
+
+
+#mid{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+

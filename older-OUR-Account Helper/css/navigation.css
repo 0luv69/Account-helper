@@ -1,0 +1,113 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    /* background-color: #e8d0ff; */
+}
+#navbar{
+    display: flex;
+    background-color:rgb(176 176 176);
+}
+
+/* From here it is for left side styleing it means for logo  */
+#left img{
+    height:60px;
+    padding: 15px 15px;   
+}
+#left img:hover{
+    box-shadow: 0 0 10px red;
+}
+/* it to display home,grade,aboutus opption without underlone and dotted */
+#mid ul{
+    display: flex;
+}
+#mid ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+#mid ul li a{  
+    padding:3px 8px;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    text-decoration: none;  
+    
+}
+/* From here it is for hover of  home,grade,aboutus opption */
+
+#mid ul li a:hover{
+
+    color:white;
+    background-color: black;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+/* From here it starts for grade dropdown hai */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+}
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+#Link1{
+    padding:3px 20px;
+    display:block;
+}
+#Link2{
+    padding:3px 20px;
+    display:block;  
+}
+/* Till here it si all about the dropdown for grade */
+/* from here it for search box  */
+#right{
+    
+    display: flex;
+    background-color: rgb(5, 247, 247);
+    border-radius: 10px;
+    margin: 27px 260px;
+    color: rgb(16, 136, 241);
+    height:40px;  
+    width: 300px;
+}
+#right input{
+    background: none;
+    border: none;
+    outline: none;
+    padding:0px 16px;
+    font-size: 18px;
+    line-height: 40px;
+    
+}
+#right input:hover{
+    font-size: 19px;
+    transition: 0.2s;
+}
+/* for her it for search button */
+#right a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    padding:0px 16px;
+    line-height: 40px;
+    box-shadow: 0 0 10px black;
+    border-radius: calc(10px); 
+}
+#right a:hover{
+    font-size: larger;
+    box-shadow: 0 0 10px white, 0 0 20px black;
+    transition: 0.5s;  
+}
+/* For line divider  */
+#line{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+#imageo{
+    height: 14px;
+    width: 33px;
+}

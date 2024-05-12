@@ -1,0 +1,125 @@
+/* Jai Sai Baba */
+#p1{
+    font-style: oblique;
+    /* float: right;  */
+    font-weight: 900;
+    font-size: 38px;
+    padding-left: 75px;
+}
+.p2{
+    font-size: 25px;
+    font-weight: 600;
+}
+#paragraph{    /* This for whole pragaph */
+    border: 3px solid red;
+    border-radius: 50px;
+    box-shadow: 0 0 20px yellow,0 0 35px black, 0 0 50px blue;
+    user-select: none; /* This for not selecting the texts*/
+    padding: 52px 48px;
+    margin: 48px 285px;
+    font-size: larger;
+}
+#paragraph:hover{
+    box-shadow: 0 0 20px skyblue,0 0 35px blue, 0 0 50px pink, 0 0 60px greenyellow;
+    background-color: rgba(233, 241, 230, 0.995);
+}
+#Name{      /*this for selating the website name "our account helper"        */
+    user-select: all;
+    font-size: 37px;
+    font-weight: 600;
+}
+#p3{
+    background-color: aliceblue;
+    padding: 0px 32px;
+    margin: 13px 125px;
+    font-weight: 400;
+    font-size: 25px;   
+}
+#p4{
+    margin: 8px 0px;
+}
+#p5{
+        margin: 0px 271px;
+}
+#p6{
+    margin: 0px 520px;
+}
+#e3{
+    margin: 0px 330px;
+}
+#p8{
+    display: block;
+    margin: -10px 0px;
+}
+#p9{
+    display: block;
+    margin: 20px 0px;
+}
+#p10{
+    display: block;
+    margin: -10px 0px;
+}
+#boxs{
+    position: relative;
+    padding: 20px 20px;
+}
+#ansbox{
+    position: absolute;
+    margin: 1px 398px;
+    height: 240px;
+    width: 344px;
+}
+#qusbox{
+    margin: 10px 160px;
+    height: 240px;
+    width: 344px;
+}
+#sub{
+    display: block;
+    margin-top: 20px;
+    padding: 0px 22px;
+}
+#fb{
+    display: block;
+    padding: 0px 22px;
+    margin-top: 6px;
+
+}
+#email{
+    display: block;
+    margin: 10px 22px;
+}
+#pnumber{
+    display: block;
+    padding:0px 22px;
+    margin-top: 3px;
+}
+.removeline a {
+    color: black;
+    text-decoration: none;
+    background-color: #DFF6FF;
+    border: 2px red solid;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+.removeline a:hover{
+    font-size: 22px;
+    box-shadow: 0px 0px 30px red;
+}
+#remove{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<!-- Jai Sai BaBa  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Debit & Credit</title>
+    <link rel="stylesheet" href="../css/pages_css/1dc.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" media="screen and (max-width:1312px)" href="../css/bc_index.css">
+</head>
+<body>
+        <header id="navbar">
+            <div id="left">
+                <a href="../index.html"> <img src="../Image/Logo.png" alt="Account Helper"> </a>
+            </div>
+            <div id="mid">
+                <ul>
+                    <li class="items"><a href="../index.html">Home</a></li>
+                    <li class="items" id="dropdown">
+                        <a href="#">Grade <img id="imageo" src="../Image/dropdown.png">
+                        </a>
+                            <div class="dropdown-content">
+                                <a id="Link1" href="../pages/grade11.html">Class-11</a>
+                                <a id="Link2" href="../pages/grade12.html">Class-12</a>
+                            </div>
+                    </li>
+                    <li class="items"><a href="../aboutus.html">About us</a></li>
+                    <li class="items"><a href="../feedback.html">FeedBack</a></li>
+                </ul>
+            </div>
+            <div id="right">
+                <input type="text" value="" id="query" placeholder="Type here to Search">
+                <a href="#" id="subbmit">Search</a>
+                <script>
+                    let query = document.querySelector('#query');
+                    let subbmit = document.querySelector('#subbmit');
+        
+                    subbmit.onclick = function(){
+                        let url = 'https://www.google.com/search?q='+query.value;
+                        window.open(url);
+                    }
+            </script>
+        
+            </div>
+        </header>
+        
+        <!-- form here it begins the part of body  -->
+
+        <div id="BOX">
+                <div id="box1">
+                    <span id="p1">If you want to check if your entries are debit or credit, 
+                        <span>Enter it here: </span></span>
+                    <br><input type="text" placeholder="Enter your entries here" id="search-text"> 
+                    <a href="#" id="search">Search</a>
+                </div>
+
+                <img id="img" src="../Image/Debit&creditrule.png" alt="The rule of debit and credit is here">
+
+                <div id="box2">
+                    <span id="name" >Items/entries that goes on: </span>
+                        <img src="../Image/1.png" id="dist" alt="">
+                        <div id="box3">
+                            <p id="debit" class="one0">Debit</p>
+                        
+                        </div>
+    
+                        <div id="box4">
+                            <p id="Credit" class="one0">Credit</p>
+                        </div>
+                </div>
+        </div>
+
+
+
+
+</body>
+</html>
